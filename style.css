@@ -1,0 +1,104 @@
+.div-header {
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.title-header {
+    margin-left: 2%;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.title-header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.nav-header {
+    margin-right: 2%;
+}
+
+.nav-header li {
+  display: inline-block;
+}
+
+.nav-header li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding-right: 1rem;
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-principal {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-info{
+    width: 30%;
+}
+
+.bloco-calculadora {
+   background-color: darkgray;
+   align-items: center;
+   margin-top: 1.5rem;
+   border: 3px solid rgb(0, 0, 0);
+   justify-content: center;
+   text-align: center;
+   padding: 1.5rem;
+}
+
+.bloco-calculadora button {
+    margin-left: 0.5rem;
+}
+
+.bloco-calculadora h4{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.titulo-calc {
+    margin-bottom: 2rem;
+}
+
+.resultado {
+    width: 10rem;
+    padding-top: 0.3rem;
+    display: inline-block;
+    font-weight: bolder;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 auto 1.5rem;
+    background-color: white;
+
+}
+#btn-limpa{
+    width: 18%;
+    margin-bottom: 0.8rem;
+
+}
+.section-info {
+    width: 80%;
+    margin :4rem auto;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 6px double darkgray;
+    padding: 1.5rem;
+}
+
+.section-info-p {
+    font-weight: bolder;
+}
